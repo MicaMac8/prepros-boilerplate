@@ -1,31 +1,23 @@
 # prepros-boilerplate
 Little boilerplate for fast frontend projects using prepros for compiling
 
+### Settings :
 
-## Settings :
+* Compiler : Prepros
 
-* template engine :  
-  Jade (Pug)  
+* template engine : Jade (Pug)  
 
-#### CSS
-* preprocessor :  
-  Sass  
-* PostCSS :  
-  Autoprefixer  
-* reset :  
-  normalize.scss  
+##### CSS
+* preprocessor : Sass  
+* PostCSS : Autoprefixer    
+* reset : normalize.scss  
+* Style guides : SMACSS
+* Linters : sass-lint  
 
-* Compiler :  
-  Prepros  
+##### JS    
+* Style guides : Standard Happiness (with ";") (https://github.com/JedWatson/happiness)  
+* Linters : js-standard (Happiness)  
 
 * Libraries :  
-  jQuery  
-  Event Emitter *  
-
-* Style guides :  
-  JavaScript : Standard Happiness (with ";") (https://github.com/JedWatson/happiness)  
-  Sass : SMACSS  
-
-* Linters :  
-  js-standard (Happiness)  
-  sass-lint  
+  * jQuery  
+  * Event Emitter *  
